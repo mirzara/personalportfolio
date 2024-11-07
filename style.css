@@ -78,5 +78,34 @@
     max-height: 38rem;
     margin:1.1rem 0 3rem 0; 
     line-height: 1.8rem;
+}
+.btn-container button{
+    border: .1rem  solid #5DB9EE;
+    font-size: 1.1rem;
+    padding: .8rem 1.5rem;
+    border-radius: .5rem;
+    cursor:pointer;
+    transition: .5s ease;
+}
+button:nth-child(1){
+    background:#5DB9EE;
+    color:#262525;
+
+}
+button:nth-child(2){
+    background: transparent;
+    color:#5DB9EE;
+    margin-left: 2rem;
+}
+button:nth-child(1):hover{
+
+    background: transparent;
+    color: #5DB9EE;
+}
+button:nth-child(2):hover{
+    background: #5DB9EE;
+    color:#262525;
+}
+.icons.fa-brands{
 
 }
