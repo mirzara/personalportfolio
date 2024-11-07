@@ -8,6 +8,8 @@
 .portfolio-container{
     min-width: 100vh;
     width:100%;
+    display:flex;
+
 
 }
 .navlist{
@@ -17,6 +19,7 @@
     width:100%;
     justify-content: center;
     align-items: center;
+    position: fixed ;
 
 }
 .navlist li{
@@ -25,4 +28,18 @@
 .navlist li a{
     text-decoration: none;
     text-transform: uppercase;
+    font-size: 1rem;
+    color:#fff;
+}
+.left-container, .right-container{
+    height:100vh;
+}
+.left-container{
+    background:#262525;
+    width:80%;
+
+}
+.right-container{
+    background:#3877ff;
+    width:30%;
 }
