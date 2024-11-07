@@ -142,7 +142,7 @@ button:nth-child(2):hover{
     ;
     
 }
-.navlist li a::after{
+.navlist li a::after, .navlist .active::after{
     content:"";
     position:absolute;
     background: #fff;
@@ -154,7 +154,7 @@ button:nth-child(2):hover{
     transform-origin: bottom right;
     transition: transform .5s;
 }
-.navlist li a:hover::after{
+.navlist li a:hover::after, .navlist .active::after{
     transform: scaleX(1);
     transform-origin: bottom left;
 
