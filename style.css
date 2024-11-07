@@ -33,13 +33,49 @@
 }
 .left-container, .right-container{
     height:100vh;
+    display: flex;
+    align-items: center;
 }
 .left-container{
     background:#262525;
     width:80%;
+    padding-left: 3rem;
+
 
 }
 .right-container{
     background:#3877ff;
     width:30%;
+}
+.icons .fa-brands{
+    color:#bbb;
+    font-size: 1.7rem;
+}
+.icons{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:3rem;
+}
+.content{
+    margin-left: 4rem;
+}
+.content .intro{
+    font-size: 1.5rem;
+    color:#fff;
+}
+.content .intro span{
+    color:#5DB9EE;
+}
+.content h1{
+    font-size: 4rem;
+    color:#5DB9EE;
+}
+.content .detail{
+    font-size: 1.1rem;
+    color: #fff;
+    max-height: 38rem;
+    margin:1.1rem 0 3rem 0; 
+
 }
