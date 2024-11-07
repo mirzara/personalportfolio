@@ -124,11 +124,10 @@ button:nth-child(2):hover{
 }
 .circle:nth-child(1){
     background:linear-gradient(90%deg,transparent 50%,#262525 50%);
-    width: 30rem;
 }
 .circle:nth-child(2){
     width:30rem;
-    background-image:url(/personalportfolio/image/IMG20210402184849.jpg);
+    background-image:url(image/zara.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
     border: 1rem solid white;
@@ -157,7 +156,28 @@ button:nth-child(2):hover{
 .navlist li a:hover::after, .navlist .active::after{
     transform: scaleX(1);
     transform-origin: bottom left;
+}
 
-
-    }
-
+@media (max-width: 765px) {
+  .portfolio-container {
+    flex-direction: column;
+    min-width: 100%;
+  }
+  .design .circle {
+    width: 60%;
+    left: 45%;
+    top: 27vh;
+  }
+  .left-container {
+    width: 100%;
+    padding-left: unset;
+    flex-direction: column-reverse;
+  }
+  .icons {
+    padding-top: 30px;
+    flex-direction: row;
+  }
+  .right-container {
+    width: 100%;
+  }
+}
