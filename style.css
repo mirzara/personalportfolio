@@ -44,7 +44,7 @@
 
 }
 .right-container{
-    background:#3877ff;
+    background:linear-gradient(-45deg,#3877FF,#262525 70%);
     width:30%;
 }
 .icons .fa-brands{
@@ -111,4 +111,33 @@ button:nth-child(2):hover{
     background: linear-gradient(#fff,#3877FF);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+.design .circle{
+    aspect-ratio: 1;
+    position: absolute;
+    border-radius: 50%;
+    top: 50%;
+    left:85%;
+    transform:translate(-50%,-50%)
+
+}
+.circle:nth-child(1){
+    background:linear-gradient(90%deg,transparent 50%,#262525 50%);
+    width: 30rem;
+}
+.circle:nth-child(2){
+    width:30rem;
+    background-image:url(/personalportfolio/image/IMG20210402184849.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border: 1rem solid white;
+    box-shadow:
+    0 0 1rem #fff,
+    inset 0 0 1rem #fff,
+    0 0 2rem #3877FF,
+    inset 0 0 2rem #3877FF,
+    0 0 4rem #3877FF,
+    inset 0 0 4rem #3877FF
+    ;
+    
 }
